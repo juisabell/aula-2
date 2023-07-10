@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+header{
+    height: 20vh;
+    background-image: url(/attachments/comida.svg);
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    
+}
+.nav1{
+    width: 45vw;
+    border: 1px solid black;
+    font-size: 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.imagemmidias{
+    width: 3vw;
+
+}
+.cabecalho2{
+
+    text-decoration: none;
+    color: #FFF;
+    font-size: 8vw;
+    text-transform: uppercase;
+
+}
+.nav1_link{
+    text-decoration: none;
+    color: #FFF;
+}
+.secao1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+    width: 38vw;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.paragrafo{
+    text-align: center;
+    width: 90vw;
+    font-size: 10px;
+}
+#botao1{
+    width: 20vw ;
+background-color: #3b3131;
+border: none;
+border-radius: 2px;  
+height: 2.5vh;
+color: white;
+text-transform: uppercase;
+font-weight: 400;
+margin-bottom: 3vh;
+}
+.secao2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap
+
+}
+.imagemsecao{
+    width: 33.3vw;
+    min-height: 20vh;
+    object-fit: cover;
+}
+footer{
+    height: 3vh;
+    background-color: black;
+}
+@media screen and (max-width: 700px) {
+    h1{
+        font size: 40px;
+    }
+    
+}
